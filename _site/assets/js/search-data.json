@@ -1,0 +1,23 @@
+{"0": {
+    "doc": "Visual Studio",
+    "title": "Visual Studio",
+    "content": "Noticed a mistake on the page, click here to Contribute. ",
+    "url": "/docs/VisualStudio",
+    
+    "relUrl": "/docs/VisualStudio"
+  },"1": {
+    "doc": "Home",
+    "title": "About",
+    "content": "This community Project is initialized by “VerzatileDev” and is open to contributions from anyone in the community and outside of the community looking to improve or learn more about Programming and Visual studio etc. The book’s primary focus is to provide information found out from years of knowledge and projects tested to get started in certain areas. ",
+    "url": "/#about",
+    
+    "relUrl": "/#about"
+  },"2": {
+    "doc": "Home",
+    "title": "Home",
+    "content": " ",
+    "url": "/",
+    
+    "relUrl": "/"
+  }
+}
