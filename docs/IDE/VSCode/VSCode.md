@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Visual Studio Code
+title: VSCode
 nav_order: 1
 has_children: true
-permalink: docs/IDE/VisualStudioCode
+permalink: docs/IDE/VSCode
 ---
 
 {{ page.title }}
