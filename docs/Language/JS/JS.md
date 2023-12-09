@@ -1,13 +1,12 @@
 ---
 layout: default
-title: Visual Studio Code
+title: JS
 nav_order: 1
 has_children: true
-permalink: docs/IDE/VisualStudioCode
+permalink: docs/Language/JS
 ---
 
 {{ page.title }}
 ======================
 
 //Content
-
