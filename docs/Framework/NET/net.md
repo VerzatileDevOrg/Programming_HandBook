@@ -1,10 +1,10 @@
 ---
 layout: default
-title: GO
+title: .NET
 nav_order: 1
-parent: Language
+parent: Framework
 // has_children: true // Add this Back if it has new content
-permalink: docs/Language/GO
+permalink: docs/Framework/NET
 ---
 
 {{ page.title }}
