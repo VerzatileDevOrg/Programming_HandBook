@@ -13,7 +13,7 @@ permalink: docs/Language/Lisp
 //Content
 
 <!-- https://pngimg.com/image/50755 Image Source (Unmodified)-->
-<img src="/images/under_construction.png" alt="Header" style="width:20%;">
+<img src="../images/under_construction.png" alt="Header" style="width:20%;">
 <br>
 Please Return back next time.
 

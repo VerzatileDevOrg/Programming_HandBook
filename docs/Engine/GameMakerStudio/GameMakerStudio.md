@@ -3,7 +3,7 @@ layout: default
 title: GameMakerStudio
 nav_order: 1
 parent: Engine
-// has_children: true // Add this Back if it has new content
+has_children: false // Add this Back if it has new content
 permalink: docs/Engine/GameMakerStudio
 ---
 
@@ -13,7 +13,7 @@ permalink: docs/Engine/GameMakerStudio
 //Content
 
 <!-- https://pngimg.com/image/50755 Image Source (Unmodified)-->
-<img src="/images/under_construction.png" alt="Header" style="width:20%;">
+<img src="../images/under_construction.png" alt="Header" style="width:20%;">
 <br>
 Please Return back next time.
 

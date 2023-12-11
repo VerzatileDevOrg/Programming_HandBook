@@ -1,10 +1,9 @@
 ---
 layout: default
-title: OpenGL
+title: Pointers
 nav_order: 1
-parent: Framework
-// has_children: true // Add this Back if it has new content
-permalink: docs/Framework/OpenGL
+has_children: true
+permalink: docs/Language/C++
 ---
 
 {{ page.title }}

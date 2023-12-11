@@ -1,16 +1,16 @@
 ---
 layout: default
-title: OpenGL
+title: Git
 nav_order: 1
-parent: Framework
-// has_children: true // Add this Back if it has new content
-permalink: docs/Framework/OpenGL
+has_children: true
+permalink: docs/VersionControl/Git
 ---
 
 {{ page.title }}
 ======================
 
-//Content
+{{ page.title }}
+======================
 
 <!-- https://pngimg.com/image/50755 Image Source (Unmodified)-->
 <img src="../images/under_construction.png" alt="Header" style="width:20%;">

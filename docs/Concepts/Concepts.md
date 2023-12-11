@@ -1,10 +1,9 @@
 ---
 layout: default
-title: OpenGL
-nav_order: 1
-parent: Framework
-// has_children: true // Add this Back if it has new content
-permalink: docs/Framework/OpenGL
+title: Concepts
+nav_order: 5
+has_children: true
+permalink: docs/Concepts/
 ---
 
 {{ page.title }}
