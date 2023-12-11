@@ -2,7 +2,8 @@
 layout: default
 title: Inheritance
 nav_order: 1
-has_children: true
+parent: Concepts
+has_children: false
 permalink: docs/Concepts/
 ---
 
@@ -10,3 +11,14 @@ permalink: docs/Concepts/
 ======================
 
 //Content
+
+<!-- https://pngimg.com/image/50755 Image Source (Unmodified)-->
+<img src="../images/under_construction.png" alt="Header" style="width:20%;">
+<br>
+Please Return back next time.
+
+Noticed a mistake on the page, click [here](https://github.com/VerzatileDevOrg/Programming_HandBook/blob/main/{{ page.permalink }}/{{ page.title | slugify }}.md) to contribute.
+
+<br>
+
+<br>
