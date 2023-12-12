@@ -4,7 +4,6 @@ title: SOLID
 nav_order: 1
 parent: Concepts
 has_children: false
-permalink: docs/Concepts/
 ---
 
 {{ page.title }}
@@ -280,7 +279,3 @@ In summary, the approach involved breaking down responsibilities, introducing ab
 #### Author: JDSherbert
 #### Since: 11/12/2023
 
------------------------------------------------------------------------
-
-### Noticed A Mistake?
-Click [here](https://github.com/VerzatileDevOrg/Programming_HandBook/blob/main/{{ page.permalink }}/{{ page.title | slugify }}.md) to contribute!

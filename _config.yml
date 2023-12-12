@@ -4,5 +4,7 @@ theme: just-the-docs
 
 url: https://just-the-docs.github.io
 
+github_base_url: "https://github.com/VerzatileDevOrg/Programming_HandBook"
+
 aux_links:
-  Contribute to the Github Repository: https://github.com/VerzatileDev/Programming_HandBook
+  Contribute to the Github Repository: https://github.com/VerzatileDevOrg/Programming_HandBook
