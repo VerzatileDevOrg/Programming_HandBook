@@ -1,16 +1,14 @@
 ---
 layout: default
-title: SFML
-nav_order: 1
-parent: Framework
-has_children: false
+title: Version Control
+nav_order: 6
+has_children: true
 ---
 
 {{ page.title }}
 ======================
 
 {% include under_construction.html %}
-
 
 <br>
 
