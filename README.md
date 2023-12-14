@@ -24,12 +24,12 @@ If you'd like to contribute to the project, please fork it, add your article, an
 
 -----------------------------------------------------------------------
 
-## Repository Maintainers
+### Repository Maintainers
 - VerzatileDev
 - JDSherbert
 - Sommos
 
-## Contributors
+### Contributors
 - VerzatileDev
 - JDSherbert
 - Sommos
