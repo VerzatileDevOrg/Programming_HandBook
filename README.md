@@ -4,7 +4,7 @@
 
 -----------------------------------------------------------------------
 
-![Build](https://github.com/VerzatileDevOrg/Programming_HandBook/blob/main/.github/workflows/pages.yml/badge.svg)
+![Build](https://github.com/VerzatileDevOrg/Programming_HandBook/blob/main/.github/workflows/ci.yml/badge.svg)
 
 -----------------------------------------------------------------------
 
