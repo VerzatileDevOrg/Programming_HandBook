@@ -5,6 +5,7 @@
 -----------------------------------------------------------------------
 
 ![Build](https://github.com/VerzatileDevOrg/Programming_HandBook/blob/main/.github/workflows/ci.yml/badge.svg)
+![Issues]()
 
 -----------------------------------------------------------------------
 
@@ -15,8 +16,20 @@
 
 -----------------------------------------------------------------------
 
+## Overview
+
 The Programmer's Handbook is an open source initiative to collect, archive, and localize all programming knowledge in one collective space.
 
 If you'd like to contribute to the project, please fork it, add your article, and submit a PR for review!
 
 -----------------------------------------------------------------------
+
+## Repository Maintainers
+- VerzatileDev
+- JDSherbert
+- Sommos
+
+## Contributors
+- VerzatileDev
+- JDSherbert
+- Sommos
