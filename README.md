@@ -4,7 +4,8 @@
 
 -----------------------------------------------------------------------
 
-![Build](https://img.shields.io/github/VerzatileDevOrg/Programming_HandBook/.github/workflows/ci.yml)
+[![Gem Version](https://badge.fury.io/rb/beautiful-jekyll-theme.svg)](https://badge.fury.io/rb/beautiful-jekyll-theme)
+![Build and deploy](https://github.com/VerzatileDevOrg/Programming_HandBook/workflows/ci.yml/badge.svg)
 ![Issues](https://img.shields.io/github/issues/VerzatileDevOrg/Programming_HandBook)
 ![Forks](https://img.shields.io/github/forks/VerzatileDevOrg/Programming_HandBook)
 
