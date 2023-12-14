@@ -4,6 +4,10 @@
 
 -----------------------------------------------------------------------
 
+![Workflow](https://github.com/VerzatileDevOrg/Programming_HandBook/blob/main/.github/workflows/pages.yml/badge.svg)
+
+-----------------------------------------------------------------------
+
 <a href=""> 
   <img align="left" alt="Open Source Project" src="https://img.shields.io/badge/Open%20Source%20Project-black?style=for-the-badge&logo=none&logoColor=white&color=black&labelColor=black"> </a>
   
