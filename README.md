@@ -5,7 +5,7 @@
 -----------------------------------------------------------------------
 
 ![Build](https://github.com/VerzatileDevOrg/Programming_HandBook/blob/main/.github/workflows/ci.yml/badge.svg)
-![Issues](https://github.com/VerzatileDevOrg/Programming_HandBook/issues/badge.svg)
+![Issues](https://img.shields.io/github/issues/VerzatileDevOrg/Programming_HandBook)
 
 -----------------------------------------------------------------------
 
