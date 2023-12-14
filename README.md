@@ -8,6 +8,7 @@
 ![Build](https://github.com/VerzatileDevOrg/Programming_HandBook/.github/workflows/ci.yml/badge.svg)
 ![Issues](https://img.shields.io/github/issues/VerzatileDevOrg/Programming_HandBook)
 ![Forks](https://img.shields.io/github/forks/VerzatileDevOrg/Programming_HandBook)
+![Forks](https://img.shields.io/github/stars/VerzatileDevOrg/Programming_HandBook)
 
 -----------------------------------------------------------------------
 
