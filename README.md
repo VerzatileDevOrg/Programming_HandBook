@@ -4,7 +4,7 @@
 
 -----------------------------------------------------------------------
 
-![Workflow](https://github.com/VerzatileDevOrg/Programming_HandBook/blob/main/.github/workflows/pages.yml/badge.svg?event=push)
+![Build](https://github.com/VerzatileDevOrg/Programming_HandBook/blob/main/.github/workflows/pages.yml/badge.svg)
 
 -----------------------------------------------------------------------
 
