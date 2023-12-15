@@ -16,8 +16,6 @@
 ![Forks](https://img.shields.io/github/forks/VerzatileDevOrg/Programming_HandBook)
 ![Stars](https://img.shields.io/github/stars/VerzatileDevOrg/Programming_HandBook)
 
------------------------------------------------------------------------
-
 ## Overview
 
 The Programmer's Handbook is an open source initiative to collect, archive, and localize all programming knowledge in one collective space.
