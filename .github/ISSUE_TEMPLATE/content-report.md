@@ -12,7 +12,6 @@ Description:
 (Example "The information on Python is incorrect/isn't accurate"
 - > 
 
-->
 
 How would or could it be solved:
 (Explain what changes should be contributed or taken out in solving the issue)
