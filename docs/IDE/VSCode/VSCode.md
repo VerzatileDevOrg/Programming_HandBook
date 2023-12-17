@@ -10,6 +10,8 @@ has_children: false
 
 {% include under_construction.html %}
 
+Download: https://code.visualstudio.com/
+
 <br>
 
 <br>

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Notepad++
+title: Rider
 nav_order: 1
 parent: IDE
 has_children: false
@@ -11,7 +11,7 @@ has_children: false
 
 {% include under_construction.html %}
 
-Download: https://notepad-plus-plus.org/
+Download: https://www.jetbrains.com/rider/
 
 <br>
 
