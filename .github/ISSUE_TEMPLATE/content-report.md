@@ -9,7 +9,7 @@ assignees: VerzatileDev
 ---
 
 Description:
-(Example "There is an issue with a section listed in Python"
+(Example "The information on Python is incorrect/isn't accurate"
 - > 
 
 Explain Briefly
