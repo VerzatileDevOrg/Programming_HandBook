@@ -8,7 +8,7 @@ assignees: VerzatileDev
 
 ---
 
-Describe the Section it took place:
+Description:
 (Example "There is an issue with a section listed in Python"
 - > 
 
