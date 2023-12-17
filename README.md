@@ -31,3 +31,4 @@ If you'd like to contribute to the project, please fork it, add your article, an
 ### Contributors
 - VerzatileDev
 - JDSherbert
+- Sommos
