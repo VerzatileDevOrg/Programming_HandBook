@@ -1,7 +1,20 @@
 <div class="footer">
-    <hr>
+  <hr>
+
+  {% if site.back_to_top %}
     <p>
-      <strong>Noticed A Mistake?</strong>
-      Click <a href="{{ site.github_base_url }}/blob/main{{ page.dir }}{{ page.name | replace: '_', '-' }}" target="_blank">here</a> to contribute!
+      <a href="#top" id="back-to-top">Back to Top</a>
     </p>
-  </div>
+  {% endif %}
+  
+  {% if page.last_modified_at %}
+    <p>
+      <strong>SINCE:</strong> {{ page.last_modified_at | date: '%d/%m/%Y' }}
+    </p>
+  {% endif %}
+
+  <p>
+    <strong>Noticed A Mistake?</strong>
+    Click <a href="{{ site.github_base_url }}/blob/main{{ page.dir }}{{ page.name | replace: '_', '-' }}" target="_blank">here</a> to contribute!
+  </p>
+</div>
