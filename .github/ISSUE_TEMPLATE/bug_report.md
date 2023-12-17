@@ -1,6 +1,6 @@
 ---
 name: Bug Report
-about: Create a report to help us improve
+about: Submit a Bug Report if you find something in our site not working as it should be (such as our webpages not loading)! For content issues, please use a Content Report!
 title: ''
 labels: ''
 assignees: ''
