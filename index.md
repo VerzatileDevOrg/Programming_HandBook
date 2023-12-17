@@ -14,9 +14,12 @@ If you'd like to contribute to the project, please fork it, add your article, an
 -----------------------------------------------------------------------
 
 ### Repository Maintainers
+
 - VerzatileDev
 - JDSherbert
 
 ### Contributors
-- VerzatileDev
-- JDSherbert
+
+<a href="https://github.com/VerzatileDevOrg/Programming_HandBook/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=VerzatileDevOrg/Programming_HandBook" />
+</a>
