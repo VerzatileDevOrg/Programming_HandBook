@@ -2,7 +2,7 @@
 layout: default
 title: Pointers
 nav_order: 1
-parent: Language
+parent: C++
 has_children: false
 ---
 
