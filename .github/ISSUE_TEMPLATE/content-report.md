@@ -1,6 +1,6 @@
 ---
 name: Content Report
-about: Content has an issue with (Copyright, Grammar, False Information and or how
+about: Submit a Content Report if you find something wrong with the content within a page, ie Copyrights, Grammar, False Information or broken links to academic sources! For functional issues (such as our website not working), please use a Bug Report! 
   its explained).
 title: ''
 labels: 'Content: Issue'
