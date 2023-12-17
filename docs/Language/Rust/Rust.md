@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Python
+title: Rust
 nav_order: 1
 parent: Language
 has_children: false
