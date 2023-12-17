@@ -12,7 +12,6 @@ Description:
 (Example "The information on Python is incorrect/isn't accurate"
 - > 
 
-Explain Briefly
 (What section has the issue and why)
 ->
 
