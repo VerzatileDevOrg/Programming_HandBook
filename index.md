@@ -7,9 +7,19 @@ has_children: false
 
 ## About
 
-This community Project is initialized by “[VerzatileDev](https://github.com/VerzatileDev)” and "[JDSherbert](https://github.com/JdSherbert)" and is open to contributions from anyone in the community and outside of the community looking to improve or learn more about Programming and Visual studio etc.
-The book’s primary focus is to provide information found out from years of knowledge and projects tested to get started in certain areas.
+Founded by “[VerzatileDev](https://github.com/VerzatileDev)” and "[JDSherbert](https://github.com/JDSherbert)", the Programmer's Handbook is an open source initiative to collect, archive, and localize all programming knowledge in one collective space.
 
-<br>
+If you'd like to contribute to the project, please fork it, add your article, and submit a PR for review!
 
-<br>
+-----------------------------------------------------------------------
+
+### Repository Maintainers
+
+- VerzatileDev
+- JDSherbert
+
+### Contributors
+
+<a href="https://github.com/VerzatileDevOrg/Programming_HandBook/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=VerzatileDevOrg/Programming_HandBook" />
+</a>
