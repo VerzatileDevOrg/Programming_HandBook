@@ -3,7 +3,7 @@ layout: default
 title: C++
 nav_order: 1
 parent: Language
-has_children: false
+has_children: true
 ---
 
 {{ page.title }}
