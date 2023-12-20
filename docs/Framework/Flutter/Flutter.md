@@ -6,8 +6,7 @@ parent: Framework
 has_children: false
 ---
 
-# {{ page.title }}
-
+{{ page.title }}
 ======================
 
 ## What is Flutter?
@@ -194,4 +193,4 @@ In summary, the approach involved breaking down responsibilities, introducing ab
 
 #### Author: Sommos
 
-#### Since: 17/12/2023
+#### Published: 17/12/2023

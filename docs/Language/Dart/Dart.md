@@ -6,8 +6,7 @@ parent: Language
 has_children: false
 ---
 
-# {{ page.title }}
-
+{{ page.title }}
 ======================
 
 ## What is Dart?
@@ -72,4 +71,4 @@ Dart is a powerful programming language that can be used to build mobile, deskto
 
 #### Author: Sommos
 
-#### Since: 17/12/2023
+#### Published: 17/12/2023

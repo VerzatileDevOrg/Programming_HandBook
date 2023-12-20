@@ -6,8 +6,7 @@ parent: Language
 has_children: false
 ---
 
-# {{ page.title }}
-
+{{ page.title }}
 ======================
 
 ## What is Rust?
@@ -74,4 +73,4 @@ In conclusion, Rust is a powerful systems programming language that prioritizes 
 
 #### Author: Sommos
 
-#### Since: 17/12/2023
+#### Published: 17/12/2023
