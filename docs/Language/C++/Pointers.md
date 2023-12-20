@@ -396,8 +396,8 @@ Multilevel pointers are commonly used in dynamic memory allocation scenarios.
 int*** MakeTriplePointer() 
 {
     int*** triplePointer = new int**;   // Dynamic allocation of a triple-pointer
-    *triplePointer = new int*;          // Dynamic allocation of a double-pointer
-    **triplePointer = new int;          // Dynamic allocation of a single pointer
+    **triplePointer = new int*;          // Dynamic allocation of a double-pointer
+    *triplePointer = new int;          // Dynamic allocation of a single pointer
     return triplePointer;
 }
 
