@@ -6,7 +6,8 @@ parent: Concepts
 has_children: false
 ---
 
-# {{ page.title }}
+{{ page.title }}
+======================
 
 In computer science, algorithms are sets of instructions or procedures designed to solve specific problems or accomplish tasks. They form the backbone of all programs, dictating the sequence of operations to be performed for given inputs to produce desired outputs. The efficiency of an algorithm is often measured in terms of time and space complexity, which respectively indicate the speed and memory usage of the algorithm.
 
@@ -229,4 +230,4 @@ Algorithms are sets of instructions or procedures designed to solve specific pro
 
 #### Author: Sommos
 
-#### Since: 17/12/2023
+#### Published: 17/12/2023

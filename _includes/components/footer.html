@@ -7,14 +7,12 @@
     </p>
   {% endif %}
   
-  {% if page.last_modified_at %}
-    <p>
-      <strong>SINCE:</strong> {{ page.last_modified_at | date: '%d/%m/%Y' }}
-    </p>
-  {% endif %}
+  <div>
+    <p>Last Modified: {{ page.last_modified_at | date: '%A, %d %B %Y %R:%S' }}</p>
+  </div>
 
   <p>
-    <strong>Noticed A Mistake?</strong>
-    Click <a href="{{ site.github_base_url }}/blob/main{{ page.dir }}{{ page.name | replace: '_', '-' }}" target="_blank">here</a> to contribute!
+    Noticed a mistake?
+    <a href="{{ site.github_base_url }}/blob/main{{ page.dir }}{{ page.name | replace: '_', '-' }}" target="_blank">Edit this page on GitHub</a>
   </p>
 </div>
