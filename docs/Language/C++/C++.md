@@ -13,7 +13,7 @@ C++ is a general-purpose programming language that was developed as an extension
 
 -----------------------------------------------------------------------
 
-### Official Documentation
+## Official Documentation
 
 - Microsoft Documentation: [https://learn.microsoft.com/en-us/cpp/cpp/](https://learn.microsoft.com/en-us/cpp/cpp/)
 - CPlusPlus: [https://cplusplus.com/](https://cplusplus.com/)
@@ -22,7 +22,7 @@ C++ is a general-purpose programming language that was developed as an extension
 
 -----------------------------------------------------------------------
 
-### Features
+## Features
 
 - Object-Oriented Programming (OOP): C++ supports the four main principles of OOP: encapsulation, inheritance, polymorphism, and abstraction. This makes it possible to model real-world entities more effectively.
 
@@ -46,7 +46,7 @@ C++ is a general-purpose programming language that was developed as an extension
 
 -----------------------------------------------------------------------
 
-### Key Releases
+## Key Releases
 
 - C++98: The first standardized version of C++, introduced in 1998, included many features like the Standard Template Library (STL), exception handling, and the bool data type.
 
@@ -66,7 +66,7 @@ Each release has aimed to enhance the language's expressiveness, safety, and per
 
 -----------------------------------------------------------------------
 
-### Getting Started
+## Getting Started
 
 Using C++ involves several steps, from setting up your development environment to writing, compiling, and running your code. Here's a step-by-step guide to get you started:
 
