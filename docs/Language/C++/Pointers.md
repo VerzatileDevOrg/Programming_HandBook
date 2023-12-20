@@ -160,7 +160,7 @@ Note that a `nullptr` is not implicitly convertible to integral types, which hel
 Checking or Guarding for invalid pointers frequently in your code is good practice, especially when writing critical programs.
 
 ```cpp
-if (int* somePtr == nullptr) 
+if (somePtr == nullptr) 
 {
     // Throw some exception about the pointer being null
 }
