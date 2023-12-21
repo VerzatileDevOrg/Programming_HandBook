@@ -415,6 +415,76 @@ int main()
 }
 ```
 
+Multilevel pointers are also useful for handling arrays of pointers or for guarding against invalid addresses:
+
+> "The only use-case I've found for multilevel pointers is if I want to assess the validity of an address that I am expecting to contain a single-level pointer in the first place. So for example,
+> `Arr[float*] FloatArr;`"
+>
+> "`if(float** Val = Arr[0])`
+> essentially amounts to: _did you find the value at all?_"
+>
+> "Like, it allows me to evaluate it, but honestly, I RARELY, if ever, choose to use a multilevel pointer. I'll only use one if the API im using requires it, something like Unreal Engine's `FindByPredicate()` function for instance."
+>
+> "There are readability concerns for sure. As for it being a guard, _kind of, I guess?_ The main issue is that the API's are templated, so it is already kind of expecting to return a `float*` or `int*` or whatever, which, in my opinion is totally legit  - guarding, like you said. But, if the array is an array of points to BEGIN with, you're left with the `**` nonsense."  [@Tom Shinton](www.tomshinton.com)
+
+Example:
+```cpp 
+#include <iostream>
+ 
+// Define SomeObject class
+class SomeObject
+{
+public:
+    int data;
+    SomeObject(int val) 
+    : data(val) 
+    {
+    }
+};
+
+// Initialize the array
+SomeObject* objectArray[5] = 
+{
+    new SomeObject(6),
+    new SomeObject(9),
+    new SomeObject(4),
+    new SomeObject(2),
+    new SomeObject(0)
+};
+
+int main() 
+{
+    // Multilevel pointer to an array of object pointers
+    SomeObject** doublePointer = &objectArray;
+
+    // Access an object pointer using multilevel dereferencing
+    // Check if the pointer is not nullptr before using it
+    if (*doublePointer != nullptr && (*doublePointer)[2] != nullptr) 
+    {
+        // Access the 'data' member of the object pointed to by the third element
+        int value = (*doublePointer)[2]->data;
+        std::cout << "Value: " << value << std::endl;
+    } 
+    else 
+    {
+        std::cout << "Pointer is nullptr or the third element is nullptr." << std::endl;
+    }
+
+    // Cleanup: Deallocate memory for the objects in the array.
+    // Divide the length of the object array by the byte size of SomeObject
+    for (int i = 0; i < sizeof(objectArray) / sizeof(SomeObject); ++i) 
+    {
+        delete objectArray[i];
+    }
+
+    return 0;
+}
+
+// Output:
+// Value: 4
+```
+
+
 ---
 
 #### Author: JDSherbert
