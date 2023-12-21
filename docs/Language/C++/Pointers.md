@@ -12,7 +12,9 @@ has_children: false
 
 ## Pointers Overview
 
-#### Note: This article is quite advanced and assumes you have an understanding of C++ already. If not, please refer to the C++ section of this book!
+{: .warning } 
+This article is quite advanced and assumes you have an understanding of C++.
+If not, please refer to the [C++](/docs/Language/C++/C++.html) section of this book!
 
 In C++, pointers are variables that store references to memory addresses of other variables. The data type of a pointer is the type of the variable it points to. They are powerful and performant due to their nature (as they tell the compiler where to look for data/objects in memory, rather than holding a copy of the data/object), but require careful handling to avoid issues like memory leaks and undefined behavior.
 
