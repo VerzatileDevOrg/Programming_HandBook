@@ -3,7 +3,7 @@ layout: default
 title: Github
 nav_order: 1
 parent: Version Control
-has_children: false
+has_children: true
 ---
 
 {{ page.title }}
