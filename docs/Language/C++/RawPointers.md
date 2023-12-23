@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Pointers
+title: Raw Pointers
 nav_order: 1
 parent: C++
 grand_parent: Language
@@ -10,17 +10,21 @@ has_children: false
 {{ page.title }}
 ======================
 
-## Pointers Overview
-
 {: .warning } 
 This article is quite advanced and assumes you have an understanding of C++.
 If not, please refer to the [C++](/docs/Language/C++/C++.html) section of this book!
 
-In C++, pointers are variables that store references to memory addresses of other variables. The data type of a pointer is the type of the variable it points to. They are powerful and performant due to their nature (as they tell the compiler where to look for data/objects in memory, rather than holding a copy of the data/object), but require careful handling to avoid issues like memory leaks and undefined behavior.
+Raw pointers (`*`) are pointers that directly store the memory address of another variable. They are considered "raw" because they provide a direct and unmanaged interface to memory.
 
-Imagine that pointers are like "signposts" that tell you where an object is in a box, rather than being a copy of the object - when there are several thousand objects floating around, the advantages are clear and can help to ensure operations occur on the correct object reference!
+```cpp
+int* somePtr;  // Declaration of an integer pointer
+```
 
-#### Usage Example
+Simple and straightforward to use, they directly represent memory addresses, making them easy to understand for developers with experience in lower-level programming, and don't introduce the memory overhead that tends to accompany other types of pointers, such as smart pointers.
+
+When interacting with C libraries or other languages that don't have the concept of smart pointers, they are also the most compatible option.
+
+#### Example
 
 ```cpp
 #include <iostream>
