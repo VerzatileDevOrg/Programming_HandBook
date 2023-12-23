@@ -32,7 +32,7 @@ It offers a few benefits:
 - When used in function parameters or class member functions, a pointer to const indicates that the function/method will not modify the input data, offering safer interfaces.
 - Allows the compiler to make certain optimizations based on const-correctness, potentially leading to more efficient code.
 
-#### Example Usage
+#### Example
 
 ```cpp
 #include <iostream>

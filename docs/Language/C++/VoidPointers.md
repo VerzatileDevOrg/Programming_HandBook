@@ -68,6 +68,8 @@ void genericFunction(void* data, size_t size);
 
 Void pointers do not provide type information, so improper casting can lead to runtime errors. It's essential to use them carefully and only when necessary, as they may make the code less readable and harder to maintain. In my example below, the type of void pointer is changed from an integer to a float, and even in this simple situation it can get quite difficult to follow.
 
+#### Example
+
 ```cpp
 #include <iostream>
 

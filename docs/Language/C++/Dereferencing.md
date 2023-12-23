@@ -10,8 +10,7 @@ has_children: false
 {{ page.title }}
 ======================
 
-{: .warning } 
-This article is quite advanced and assumes you have an understanding of C++.
+{: .warning } This article is quite advanced and assumes you have an understanding of C++.
 If not, please refer to the [C++](/docs/Language/C++/C++.html) section of this book!
 
 The dereference operator (`*`) is used to access the value at the memory address stored in a pointer.

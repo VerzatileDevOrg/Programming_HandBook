@@ -20,7 +20,7 @@ Multilevel pointers refer to pointers that point to other pointers, forming a ch
 
 While these types of pointers provide flexibility, they can make code more error-prone. Keeping track of each level of indirection and managing memory properly is crucial to avoid memory leaks and undefined behavior. In addition to this, there are many complaints among developers that multilevel pointers drastically ireduce code readability.
 
-#### Usage
+#### Multilevel Pointer Examples
 
 A regular pointer is a single-level pointer, pointing directly to a variable.
 
@@ -95,7 +95,7 @@ Multilevel pointers are also useful for handling arrays of pointers or for guard
 > "There are readability concerns for sure. As for it being a guard, _kind of, I guess?_ The main issue is that the API's are templated, so it is already kind of expecting to return a `float*` or `int*` or whatever, which, in my opinion is totally legit  - guarding, like you said. But, if the array is an array of points to BEGIN with, you're left with the `**` nonsense."  
 > _- [@Tom Shinton](www.tomshinton.com), Discussion about Multilevel Pointer use-cases._
 
-#### Example Usage
+#### Example
 
 ```cpp 
 #include <iostream>
