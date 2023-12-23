@@ -31,7 +31,7 @@ References offer some benefits, such as:
 - References improve code readability by creating expressive and self-documenting code. The use of references indicates that the variable is being referenced or modified within a function.
 - References are commonly used in operator overloading, allowing you to define custom behaviors for operators like +, -, etc.
 
-#### Example usage
+#### Example
 
 ```cpp
 #include <iostream>

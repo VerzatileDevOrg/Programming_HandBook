@@ -10,11 +10,10 @@ has_children: false
 {{ page.title }}
 ======================
 
-{: .warning } 
-This article is quite advanced and assumes you have an understanding of C++.
+{: .warning } This article is quite advanced and assumes you have an understanding of C++.
 If not, please refer to the [C++](/docs/Language/C++/C++.html) section of this book!
 
-Const Pointers are quite straightforward - as with any other standard `const` variable in C++, it's a type of pointer that cannot be reassigned to point to a different memory address. It still allows read-write access to the pointed-to variable though!
+Constant Pointers are quite straightforward - as with any other standard `const` variable in C++, it's a type of pointer that cannot be reassigned to point to a different memory address. It still allows read-write access to the pointed-to variable though!
 
 ```cpp
 int someVar = 69;
@@ -33,7 +32,7 @@ It offers a few benefits:
 - When used in function parameters or class member functions, const pointers contribute to designing safer interfaces by indicating that the function/method will not modify the pointer itself, offering const-correctness.
 - Allows the compiler to make certain optimizations based on const-correctness, potentially leading to more efficient code.
 
-#### Example Usage
+#### Example
 
 ```cpp
 #include <iostream>
