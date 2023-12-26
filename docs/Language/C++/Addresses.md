@@ -10,7 +10,8 @@ has_children: false
 {{ page.title }}
 ======================
 
-{: .warning } This article is quite advanced and assumes you have an understanding of C++.
+{: .warning } 
+This article is quite advanced and assumes you have an understanding of C++.
 If not, please refer to the [C++](/docs/Language/C++/C++.html) section of this book!
 
 In C++, the ampersand (`&`) symbol is the address-of operator, used to obtain the memory address of a variable. The memory address represents the location in the computer's memory where the variable is stored.

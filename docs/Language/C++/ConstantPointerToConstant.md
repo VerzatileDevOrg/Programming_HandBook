@@ -10,7 +10,8 @@ has_children: false
 {{ page.title }}
 ======================
 
-{: .warning } This article is quite advanced and assumes you have an understanding of C++.
+{: .warning } 
+This article is quite advanced and assumes you have an understanding of C++.
 If not, please refer to the [C++](/docs/Language/C++/C++.html) section of this book!
 
 Constant Pointers To Constants are a C++ pointer type that cannot be used to modify the value it points to, and the pointer itself cannot be reassigned to point to a different memory location. This provides a high level of const-correctness and is often used to indicate that both the pointer and the pointed-to value are constant.

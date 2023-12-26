@@ -10,7 +10,8 @@ has_children: false
 {{ page.title }}
 ======================
 
-{: .warning } This article is quite advanced and assumes you have an understanding of C++.
+{: .warning } 
+This article is quite advanced and assumes you have an understanding of C++.
 If not, please refer to the [C++](/docs/Language/C++/C++.html) section of this book!
 
 `nullptr` is a keyword introduced in C++11 to represent a pointer that points to... well, nothing - It's a constant that can be assigned to any pointer type to indicate that the pointer is not pointing to a valid memory location. Before the introduction of `nullptr`, programmers often used the integer constant `0` or the macro `NULL` to represent a null pointer. However, using `nullptr` is preferred.
