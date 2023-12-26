@@ -18,6 +18,7 @@ If not, please refer to the [C++](/docs/Language/C++/C++.html) section of this b
 
 Initializing a pointer without assigning it a specific address sets it to a null pointer.
 
+{: .example }
 ```cpp
 int* nullPointer = nullptr;
 ```
@@ -26,8 +27,7 @@ Note that a `nullptr` is not implicitly convertible to integral types, which hel
 
 Checking or Guarding for invalid pointers frequently in your code is good practice, especially when writing critical programs.
 
-#### Example
-
+{: .example }
 ```cpp
 class SomeClass 
 {

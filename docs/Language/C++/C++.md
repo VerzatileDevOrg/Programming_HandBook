@@ -93,8 +93,9 @@ You'll then need to select an IDE or a text editor to write your C++ code. Some 
 
 Simply create a new C++ source file (typically with a .cpp extension) using your chosen IDE or text editor, and write your C++ code using the C++ syntax and features!
 
-Here's a simple "Hello, World!" program as an example:
+Here's a simple "Hello, World!" program:
 
+{: .example }
 ```cpp
 #include <iostream>
 
@@ -111,8 +112,9 @@ Save your C++ code with a meaningful filename and the .cpp extension.
 
 5. ### Compile
 
-Use the command-line interface or the IDE to compile your C++ code. For example, using GCC:
+Use the command-line interface or the IDE to compile your C++ code, using GCC:
 
+{: .example }
 ```bash
 g++ your_program.cpp -o your_program
 ```

@@ -10,7 +10,7 @@ has_children: false
 {{ page.title }}
 ======================
 
-{: .further-reading } 
+{: .warning } 
 This article is quite advanced and assumes you have an understanding of C++.
 If not, please refer to the [C++](/docs/Language/C++/C++.html) section of this book!
 

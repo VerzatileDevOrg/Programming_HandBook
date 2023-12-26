@@ -16,6 +16,7 @@ If not, please refer to the [C++](/docs/Language/C++/C++.html) section of this b
 
 Constant Pointers are quite straightforward - as with any other standard `const` variable in C++, it's a type of pointer that cannot be reassigned to point to a different memory address. It still allows read-write access to the pointed-to variable though!
 
+{: .example }
 ```cpp
 int someVar = 69;
 int* const constPointer = &someVar;
@@ -33,8 +34,7 @@ It offers a few benefits:
 - When used in function parameters or class member functions, const pointers contribute to designing safer interfaces by indicating that the function/method will not modify the pointer itself, offering const-correctness.
 - Allows the compiler to make certain optimizations based on const-correctness, potentially leading to more efficient code.
 
-#### Example
-
+{: .example }
 ```cpp
 #include <iostream>
 

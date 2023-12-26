@@ -16,6 +16,7 @@ If not, please refer to the [C++](/docs/Language/C++/C++.html) section of this b
 
 While not a pointer type, references are often used in C++ as an alternative to pointers for providing an alias to an existing variable (a way to access that variable through a different name). They must be initialized when declared and cannot be reassigned.
 
+{: .example }
 ```cpp
 int someVar = 69;
 int& someReference = someVar;
@@ -31,8 +32,7 @@ References offer some benefits, such as:
 - References improve code readability by creating expressive and self-documenting code. The use of references indicates that the variable is being referenced or modified within a function.
 - References are commonly used in operator overloading, allowing you to define custom behaviors for operators like +, -, etc.
 
-#### Example
-
+{: .example }
 ```cpp
 #include <iostream>
 

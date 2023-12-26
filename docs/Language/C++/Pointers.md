@@ -20,8 +20,7 @@ In C++, pointers are variables that store references to memory addresses of othe
 
 Imagine that pointers are like "signposts" that tell you where an object is in a box, rather than being a copy of the object - when there are several thousand objects floating around, the advantages are clear and can help to ensure operations occur on the correct object reference!
 
-#### Example
-
+{: .example }
 ```cpp
 #include <iostream>
 
