@@ -16,12 +16,14 @@ If not, please refer to the [C++](/docs/Language/C++/C++.html) section of this b
 
 Void pointers `(void*)` are a special type of pointer that can point to objects of any data type. The `void` keyword is used as a placeholder for any data type - it behaves a bit like a templated type (like `T`). Void pointers can be assigned the address of any object.
 
+{: .example }
 ```cpp
 void* genericPointer;
 ```
 
 Of course, void pointers are not type-safe, meaning they do not have information about the type of data they point to. It's the programmer's responsibility to ensure proper casting when using void pointers.
 
+{: .example }
 ```cpp
 int integerValue = 69;
 float floatValue = 4.20;
@@ -35,6 +37,7 @@ voidPointer = &floatValue;    // Address of a float
 Void pointers can point to different types during their lifetimes.
 To use the value pointed to by a void pointer, you need to cast it to the appropriate type.
 
+{: .example }
 ```cpp
 #include <iostream>
 
@@ -56,20 +59,22 @@ int main()
 
 Void pointers are often used in dynamic memory allocation functions (`malloc`, `calloc`, `realloc`), which return a void pointer to the allocated memory block.
 
+{: .example }
 ```cpp
 void* someDynamicMemory = malloc(sizeof(int));
 ```
 
 Void pointers are usually used in functions that need to operate on data of unknown types, where we can't know what could be getting passed around at runtime.
 
+{: .example }
 ```cpp
 void genericFunction(void* data, size_t size);
 ```
 
 Void pointers do not provide type information, so improper casting can lead to runtime errors. It's essential to use them carefully and only when necessary, as they may make the code less readable and harder to maintain. In my example below, the type of void pointer is changed from an integer to a float, and even in this simple situation it can get quite difficult to follow.
 
-#### Example
 
+{: .example }
 ```cpp
 #include <iostream>
 

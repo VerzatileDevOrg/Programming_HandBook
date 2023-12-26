@@ -1,0 +1,126 @@
+// Callout Tags "Will make a box content with a background colour, side and Title
+// Callouts should be Added into a seperate Style When possible!
+.warning {
+    position: relative;
+    border-radius: 5px;
+    background-color: rgb(154 132 17/ 80%);
+    border-left: 4px solid #e7af06;
+    padding: 0.8rem;
+    left: 5px;
+    color: rgba(255, 255, 255); /* Set the text color inside the .warning element to white */
+  }
+  
+.warning::before {
+    content: "Warning!";
+    color: #f0ff00;
+    display: block;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.75em;
+    padding-bottom: 0.125rem;
+}
+  
+.important {
+    background: rgb(255 125 125 / 20%);
+    border-left: 4px solid #dd2e2e;
+    border-radius: 4px;
+    padding: 0.8rem;
+}
+  
+.important::before {
+    color: #dd2e2e;
+    content: "Important!";
+    display: block;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.75em;
+    padding-bottom: 0.125rem;
+}
+  
+.information {
+    background: rgba(44, 132, 250, 0.2);
+    border-left: 4px solid #183385;
+    border-radius: 4px;
+    padding: 0.8rem;
+}
+  
+.information::before {
+    content: "Information:";
+    color: #183385;
+    display: block;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.75em;
+    padding-bottom: 0.125rem;
+}
+  
+.issue {
+    background: rgb(255 125 125 / 20%);
+    border-left: 4px solid #dd2e2e;
+    border-radius: 4px;
+    padding: 0.8rem;
+}
+  
+.issue::before {
+    content: "Issue:";
+    color: #dd2e2e;
+    display: block;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.75em;
+    padding-bottom: 0.125rem;
+}
+  
+.further-reading {
+    background: rgba(114, 83, 237, 0.2);
+    border-left: 4px solid #381885;
+    border-radius: 4px;
+    padding: 0.8rem;
+    color: rgb(255 255 255);
+}
+  
+.further-reading::before {
+    content: "Further Reading:";
+    color: #381885;
+    display: block;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.75em;
+    padding-bottom: 0.125rem;
+}
+
+.new {
+    background: rgba(65, 214, 147, 0.2);
+    border-left: 4px solid #026e57;
+    border-radius: 4px;
+    padding: 0.8rem;
+    color: rgb(255 255 255);
+}
+
+.new::before {
+    color: #06ffca;
+    content: "New";
+    display: block;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.75em;
+    padding-bottom: 0.125rem;
+}
+
+.example {
+    position: relative;
+    border-radius: 5px;
+    background: rgba(114, 83, 237, 0.2);
+    border-left: 4px solid purple;
+    padding: 0.8rem;
+}
+
+.example::before {
+    content: "Example:";
+    color: #381885;
+    display: block;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.75em;
+    padding-bottom: 0.125rem;
+}

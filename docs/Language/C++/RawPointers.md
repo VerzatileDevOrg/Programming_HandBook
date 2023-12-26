@@ -16,6 +16,7 @@ If not, please refer to the [C++](/docs/Language/C++/C++.html) section of this b
 
 Raw pointers (`*`) are pointers that directly store the memory address of another variable. They are considered "raw" because they provide a direct and unmanaged interface to memory.
 
+{: .example }
 ```cpp
 int* somePtr;  // Declaration of an integer pointer
 ```
@@ -24,8 +25,7 @@ Simple and straightforward to use, they directly represent memory addresses, mak
 
 When interacting with C libraries or other languages that don't have the concept of smart pointers, they are also the most compatible option.
 
-#### Example
-
+{: .example }
 ```cpp
 #include <iostream>
 

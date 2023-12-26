@@ -24,6 +24,7 @@ While these types of pointers provide flexibility, they can make code more error
 
 A regular pointer is a single-level pointer, pointing directly to a variable.
 
+{: .example }
 ```cpp
 int someVar = 69;
 int* singlePointer = &someVar;  // Single-level pointer
@@ -31,6 +32,7 @@ int* singlePointer = &someVar;  // Single-level pointer
 
 A double-pointer stores the address of another pointer.
 
+{: .example }
 ```cpp
 int someVar = 69;
 int* singlePointer = &someVar;
@@ -39,6 +41,7 @@ int** doublePointer = &singlePointer;  // Double-level pointer
 
 A triple-pointer is a pointer that stores the address of a double-pointer.
 
+{: .example }
 ```cpp
 int myValue = 69;
 int* singlePointer = &someVar;
@@ -48,6 +51,7 @@ int*** triplePointer = &doublePointer;  // Triple-level pointer
 
 Each level of indirection requires an additional dereference to access the actual value that is being pointed to by the pointer "below" it.
 
+{: .example }
 ```cpp
 int someVar = 69;
 int* singlePointer = &someVar;
@@ -59,6 +63,7 @@ int value = ***triplePointer;  // Accesses the value (69) through triple indirec
 
 Multilevel pointers are commonly used in dynamic memory allocation scenarios.
 
+{: .example }
 ```cpp
 int*** MakeTriplePointer() 
 {
@@ -95,8 +100,7 @@ Multilevel pointers are also useful for handling arrays of pointers or for guard
 > "There are readability concerns for sure. As for it being a guard, _kind of, I guess?_ The main issue is that the API's are templated, so it is already kind of expecting to return a `float*` or `int*` or whatever, which, in my opinion is totally legit  - guarding, like you said. But, if the array is an array of points to BEGIN with, you're left with the `**` nonsense."  
 > _- [@Tom Shinton](www.tomshinton.com), Discussion about Multilevel Pointer use-cases._
 
-#### Example
-
+{: .example }
 ```cpp 
 #include <iostream>
 
