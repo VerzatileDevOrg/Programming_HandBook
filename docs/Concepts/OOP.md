@@ -25,7 +25,17 @@ has_children: false
 <button onclick="showContent('csharp')">C#</button>
 
 <script>
+  function setLanguagePreference(language) {
+    localStorage.setItem('languagePreference', language);
+  }
+
+  function getLanguagePreference() {
+    return localStorage.getItem('languagePreference');
+  }
+
   function showContent(language) {
+    setLanguagePreference(language);
+
     if (language === 'cpp') {
       document.getElementById('cppContent').style.display = 'block';
       document.getElementById('csharpContent').style.display = 'none';
@@ -34,4 +44,11 @@ has_children: false
       document.getElementById('csharpContent').style.display = 'block';
     }
   }
+
+  document.addEventListener('DOMContentLoaded', function () {
+    var savedLanguage = getLanguagePreference();
+    if (savedLanguage) {
+      showContent(savedLanguage);
+    }
+  });
 </script>
