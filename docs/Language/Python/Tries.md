@@ -3,6 +3,7 @@ layout: default
 title: Tries
 nav_order: 1
 parent: Python
+grand_parent: Language
 has_children: false
 ---
 
@@ -28,7 +29,6 @@ Tries tend to have a high space complexity, especially for large datasets with m
 3. Node Representation: Nodes in a trie can be implemented using arrays, linked lists, or other data structures. The choice of representation impacts both time and space complexity.
 
 {: .example }
-
 ```python
 # Implementation Example of a Depth First Search within the Trie.
 
