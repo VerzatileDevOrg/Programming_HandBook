@@ -6,7 +6,8 @@ parent: Concepts
 has_children: false
 ---
 
-# {{ page.title }}
+{{ page.title }}
+======================
 
 DevOps is a collaborative approach that combines development (Dev) and operations (Ops) to enhance communication and productivity throughout the software development lifecycle. It involves a set of tools and processes aimed at automating and streamlining the continuous integration & continuous delivery of software. This helps in achieving faster and more reliable development cycles, improving collaboration between development and operations teams, and ultimately delivering high-quality software efficiently.
 
