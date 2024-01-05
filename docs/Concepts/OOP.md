@@ -4,6 +4,7 @@ title: OOP
 nav_order: 1
 parent: Concepts
 has_children: false
+include_programming_language_switch_script: true
 ---
 
 {{ page.title }}
@@ -21,34 +22,11 @@ has_children: false
   This is C# content for Object-Oriented Programming.
 </div>
 
-<button onclick="showContent('cpp')">C++</button>
-<button onclick="showContent('csharp')">C#</button>
+<div id="pythonContent" style="display:none;">
+  <!-- Your C# content goes here -->
+  This is python content for Object-Oriented Programming.
+</div>
 
-<script>
-  function setLanguagePreference(language) {
-    localStorage.setItem('languagePreference', language);
-  }
-
-  function getLanguagePreference() {
-    return localStorage.getItem('languagePreference');
-  }
-
-  function showContent(language) {
-    setLanguagePreference(language);
-
-    if (language === 'cpp') {
-      document.getElementById('cppContent').style.display = 'block';
-      document.getElementById('csharpContent').style.display = 'none';
-    } else if (language === 'csharp') {
-      document.getElementById('cppContent').style.display = 'none';
-      document.getElementById('csharpContent').style.display = 'block';
-    }
-  }
-
-  document.addEventListener('DOMContentLoaded', function () {
-    var savedLanguage = getLanguagePreference();
-    if (savedLanguage) {
-      showContent(savedLanguage);
-    }
-  });
-</script>
+<button onclick="setLanguageAndShowContent('cpp')">C++</button>
+<button onclick="setLanguageAndShowContent('csharp')">C#</button>
+<button onclick="setLanguageAndShowContent('python')">Python</button>
