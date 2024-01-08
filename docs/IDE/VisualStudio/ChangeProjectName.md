@@ -29,7 +29,7 @@ This documentation outlines the steps to rename a project within a Visual Studio
 
      -> Solution Name -> Project Name -> Files
 
-     <img src="{{ site.baseurl }}/images/VisualStudioImages/SolutionDirectory.png" alt="Solution Directory" style="width:50%;">
+     <img src="{{ site.baseurl }}/assets/images/VisualStudioImages/SolutionDirectory.png" alt="Solution Directory" style="width:50%;">
 
 3. **File Name Adjustment:**
    - Change the name of the bottom file (Project name) to match the name of the top file (Solution name).
@@ -42,32 +42,32 @@ This documentation outlines the steps to rename a project within a Visual Studio
    - Open your project location folder and observe the files.
    - Note that only the `.sln` file is likely to be changed at this point.
 
-    <img src="{{ site.baseurl }}/images/VisualStudioImages/OpenFolderInFileExplorer.png" alt="Open Folder In FileExplorer" style="width:50%;">
+    <img src="{{ site.baseurl }}/assets/images/VisualStudioImages/OpenFolderInFileExplorer.png" alt="Open Folder In FileExplorer" style="width:50%;">
 
-    <img src="{{ site.baseurl }}/images/VisualStudioImages/ProjectFolderFilters.png" alt="Project Filters In FileExplorer" style="width:80%;">
+    <img src="{{ site.baseurl }}/assets/images/VisualStudioImages/ProjectFolderFilters.png" alt="Project Filters In FileExplorer" style="width:80%;">
 
 6. **Modify SLN File with Notepad:**
    - Open the `.sln` file using Notepad.
    - Locate and update the names in the designated areas to your desired values.
 
-   <img src="{{ site.baseurl }}/images/VisualStudioImages/SLNFile.png" alt="SLN File in NotePad" style="width:90%;">
+   <img src="{{ site.baseurl }}/assets/images/VisualStudioImages/SLNFile.png" alt="SLN File in NotePad" style="width:90%;">
 
 7. **Edit vcxproj File:**
    - Open the `.vcxproj` file with Notepad.
    - Locate the section containing the project name and ensure it matches the new name.
 
-   <img src="{{ site.baseurl }}/images/VisualStudioImages/vcxprojFile.png" alt="vcxproj File in NotePad" style="width:80%;">
+   <img src="{{ site.baseurl }}/assets/images/VisualStudioImages/vcxprojFile.png" alt="vcxproj File in NotePad" style="width:80%;">
 
 8. **Re-Scan Solution:**
    - Open your `.sln` file and reload the solution to apply the changes.
 
-   <img src="{{ site.baseurl }}/images/VisualStudioImages/RescanSolution.png" alt="Rescan solution In Visual Studio" style="width:30%;">
+   <img src="{{ site.baseurl }}/assets/images/VisualStudioImages/RescanSolution.png" alt="Rescan solution In Visual Studio" style="width:30%;">
 
 9. **Adjust Filters:**
    - After reloading, default `filters`, may be removed.
    - Create new filters named "Header Files," "Resource Files," and "Source Files."
 
-   <img src="{{ site.baseurl }}/images/VisualStudioImages/ProjectFilters.png" alt="Project Filters In Visual Studio" style="width:30%;">
+   <img src="{{ site.baseurl }}/assets/images/VisualStudioImages/ProjectFilters.png" alt="Project Filters In Visual Studio" style="width:30%;">
 
 10. **Organize Elements:**
     - Transfer each project element into the appropriate filter.
@@ -80,7 +80,7 @@ This documentation outlines the steps to rename a project within a Visual Studio
     - Open the newly created file and copy its contents into `vcxproj.filters`.
     - Save the changes.
 
-    <img src="{{ site.baseurl }}/images/VisualStudioImages/CopyOldFilterToNewFilter.png" alt="Copy old Filter to new Filter In Visual Studio" style="width:60%;">
+    <img src="{{ site.baseurl }}/assets/images/VisualStudioImages/CopyOldFilterToNewFilter.png" alt="Copy old Filter to new Filter In Visual Studio" style="width:60%;">
 
 13. **Delete Unneeded Files:**
     - Delete the unnecessary `.filter` file.
