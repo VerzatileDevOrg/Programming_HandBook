@@ -36,10 +36,11 @@
     margin-bottom: $sp-3;
     background-color: $code-background-color;
     border-radius: $border-radius;
-    box-shadow: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     -webkit-overflow-scrolling: touch;
     position: relative;
     padding: 10px;
+    border-left: 4px solid purple;
   
     // copy button (or other button)
     // the button appear only when there is a hover on the code or focus on button
