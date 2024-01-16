@@ -95,7 +95,7 @@ Simply create a new C++ source file (typically with a .cpp extension) using your
 
 Here's a simple "Hello, World!" program:
 
-{: .example }
+{: .code }
 ```cpp
 #include <iostream>
 
@@ -114,7 +114,7 @@ Save your C++ code with a meaningful filename and the .cpp extension.
 
 Use the command-line interface or the IDE to compile your C++ code, using GCC:
 
-{: .example }
+{: .code }
 ```bash
 g++ your_program.cpp -o your_program
 ```

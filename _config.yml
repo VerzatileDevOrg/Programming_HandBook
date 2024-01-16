@@ -9,8 +9,6 @@ github_base_url: "https://github.com/VerzatileDevOrg/Programming_HandBook"
 aux_links:
   Contribute to the Github Repository: https://github.com/VerzatileDevOrg/Programming_HandBook
 
-back_to_top: true # Works through Footer.html
-
 plugins:
   - jekyll-last-modified-at
 

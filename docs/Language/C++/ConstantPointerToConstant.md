@@ -16,7 +16,7 @@ If not, please refer to the [C++](/docs/Language/C++/C++.html) section of this b
 
 Constant Pointers To Constants are a C++ pointer type that cannot be used to modify the value it points to, and the pointer itself cannot be reassigned to point to a different memory location. This provides a high level of const-correctness and is often used to indicate that both the pointer and the pointed-to value are constant.
 
-{: .example }
+{: .code }
 ```cpp
 int someVar = 69;
 const int* const constPointerToConst = &someVar;
@@ -35,7 +35,7 @@ It offers several benefits:
 - When used in function parameters or class member functions, const pointers to const contribute to designing safer interfaces by indicating that the function/method will not modify the input data.
 - Allows the compiler to make certain optimizations based on the const-correctness, potentially leading to more efficient code.
 
-{: .example }
+{: .code }
 ```cpp
 #include <iostream>
 
