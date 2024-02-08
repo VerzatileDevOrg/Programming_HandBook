@@ -1,5 +1,7 @@
 ---
 layout: table_wrappers
+include_language_switch_script: false
+back_to_top: true
 ---
 
 <!DOCTYPE html>
@@ -7,35 +9,57 @@ layout: table_wrappers
 <html lang="{{ site.lang | default: 'en-US' }}">
 {% include head.html %}
 <body>
+  <!-- Skip to main content link for accessibility -->
   <a class="skip-to-main" href="#main-content">Skip to main content</a>
+
+  <!-- Include icons and sidebar components -->
   {% include icons/icons.html %}
   {% include components/sidebar.html %}
+
+  <!-- Main content section -->
   <div class="main" id="top">
     {% include components/header.html %}
+
+    <!-- Main content wrapper with breadcrumbs -->
     <div class="main-content-wrap">
       {% include components/breadcrumbs.html %}
+
+      <!-- Main content container -->
       <div id="main-content" class="main-content">
         <main>
+          <!-- Include anchor headings for heading links -->
           {% if site.heading_anchors != false %}
             {% include vendor/anchor_headings.html html=content beforeHeading="true" anchorBody="<svg viewBox=\"0 0 16 16\" aria-hidden=\"true\"><use xlink:href=\"#svg-link\"></use></svg>" anchorClass="anchor-heading" anchorAttrs="aria-labelledby=\"%html_id%\"" %}
           {% else %}
             {{ content }}
           {% endif %}
 
+          <!-- Include children navigation if page has children and TOC is enabled -->
           {% if page.has_children == true and page.has_toc != false %}
             {% include components/children_nav.html %}
           {% endif %}
         </main>
+
+        <!-- Include site footer -->
         {% include components/footer.html %}
       </div>
     </div>
+
+    <!-- Include search footer if search is enabled -->
     {% if site.search_enabled != false %}
       {% include components/search_footer.html %}
     {% endif %}
   </div>
 
+  <!-- Include Mermaid diagrams if enabled -->
   {% if site.mermaid %}
     {% include components/mermaid.html %}
+  {% endif %}
+
+  <!-- Includes Button switch to change from one Programming Language to another (Must be Enabled Or won't be possible) -->
+  <!-- To Enable use " include_programming_language_switch_script: true " on .md pages  -->
+  {% if page.include_programming_language_switch_script %}
+    <script src="{{ '/assets/js/programmingLanguageSwitch.js' | relative_url }}" defer></script>
   {% endif %}
 </body>
 </html>

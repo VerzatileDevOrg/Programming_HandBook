@@ -4,6 +4,13 @@ $color-scheme: dark;
 @import 'collections'; // Collections Boxes for Content
 @import '../code'; // Overwrites Dependency Values see " Just the Docs " version " Dependency Removed in the future".
 
+// ---- Add these to their specified location, or Get the full file and make changes accordingly ---
+// Main Entry (Title of the Page) Accessed by {{ page.title }}
+h1 {
+     padding-bottom: 20px;
+     font-weight: 600;
+}
+
 // All Header 2's have spacing before content
 h2 {
      padding-bottom: 20px;

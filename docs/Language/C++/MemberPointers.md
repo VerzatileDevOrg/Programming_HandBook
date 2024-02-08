@@ -16,7 +16,7 @@ If not, please refer to the [C++](/docs/Language/C++/C++.html) section of this b
 
 Member Pointers are traditional pointers that point to class or struct members.
 
-{: .example }
+{: .code }
 ```cpp
 class SomeClass 
 {

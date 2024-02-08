@@ -16,14 +16,14 @@ If not, please refer to the [C++](/docs/Language/C++/C++.html) section of this b
 
 The dereference operator (`*`) is used to access the value at the memory address stored in a pointer.
 
-{: .example }
+{: .code }
 ```cpp
 int someValue = *somePtr;  // Retrieves the value stored at the memory address 
 ```
 
 Dereferencing also allows you to modify the value stored at the memory address.
 
-{: .example }
+{: .code }
 ```cpp
 int someVar = 420;
 int* somePtr = &someVar;
@@ -32,7 +32,7 @@ int* somePtr = &someVar;
 
 When working with pointers to class members, the `->` operator is often used for dereferencing.
 
-{: .example }
+{: .code }
 ```cpp
 class SomeClass 
 {
@@ -47,7 +47,7 @@ ptr->someData = 69;  // Dereferencing using the -> operator to access class memb
 
 Dereferencing is often combined with pointer arithmetic to manipulate arrays, flags, or other blocks of data.
 
-{: .example }
+{: .code }
 ```cpp
 int main() 
 {

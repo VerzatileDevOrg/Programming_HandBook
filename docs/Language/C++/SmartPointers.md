@@ -29,7 +29,7 @@ Unique pointers (`std::unique_ptr`) represent exclusive ownership of a dynamical
 
 Unique pointers enforces exclusive ownership, preventing multiple pointers from managing the same resource simultaneously.
 
-{: .example }
+{: .code }
 ```cpp
 #include <iostream>
 #include <memory>
@@ -70,7 +70,7 @@ int main()
 
 Shared pointers (`std::shared_ptr`) enable shared ownership of a dynamically allocated object. It uses a reference counting mechanism, and the memory is deallocated only when the last shared pointer releases its ownership. It's useful for scenarios where multiple pointers need to share access to the same dynamically allocated object.
 
-{: .example }
+{: .code }
 ```cpp
 #include <iostream>
 #include <memory>
