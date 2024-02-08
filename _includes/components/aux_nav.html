@@ -1,0 +1,19 @@
+<nav aria-label="Auxiliary" class="aux-nav">
+    <ul class="aux-nav-list">
+      {% for link in site.aux_links %}
+        <li class="aux-nav-list-item">
+          <a href="{{ link.last }}" class="site-button"
+            {% if site.aux_links_new_tab %}
+            target="_blank" rel="noopener noreferrer"
+            {% endif %}
+          >
+            {{ link.first }}
+          </a>
+        </li>
+      {% endfor %}
+      <li class="aux-nav-list-item"></li>
+        <button class="btn js-toggle-dark-mode"aria-label="Switch to dark mode">🌞</button>
+        
+    </li>
+    </ul>
+  </nav>

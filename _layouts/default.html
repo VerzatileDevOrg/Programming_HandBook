@@ -5,7 +5,6 @@ back_to_top: true
 ---
 
 <!DOCTYPE html>
-
 <html lang="{{ site.lang | default: 'en-US' }}">
 {% include head.html %}
 <body>
@@ -61,5 +60,7 @@ back_to_top: true
   {% if page.include_programming_language_switch_script %}
     <script src="{{ '/assets/js/programmingLanguageSwitch.js' | relative_url }}" defer></script>
   {% endif %}
+
+  <script src="{{ '/assets/js/colorThemeSelection.js' | relative_url }}" defer></script>
 </body>
 </html>
