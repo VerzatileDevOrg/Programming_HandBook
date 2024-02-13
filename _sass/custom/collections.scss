@@ -69,8 +69,8 @@
     content: "Issue !";
 }
 
-.issue {
-    background: #ff7d7d33;
+.issue { 
+    background: rgba(255, 125, 125, 0.2);
     border-radius: 4px;
     padding: 0.8rem;
     left: 5px;
@@ -100,7 +100,7 @@
 }
 
 .new {
-    background: #e7f2fa;
+    background: rgba(10, 207, 167, 0.38);
     border-radius: 4px;
     padding: 0.8rem;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
@@ -139,7 +139,7 @@
 // Generates a Title element without a box at the top of the content written after {: .note } content..
 .note::before {
     content: attr(title);
-    color: #183385;
+    color: #7b56d2;
     display: block;
     font-weight: bold;
     text-transform: uppercase;
@@ -166,7 +166,7 @@
 // Generates a Title element without a box at the top of the content written after {: .further-reading } content..
 .further-reading::before {
     content: attr(title);
-    color: #381885;
+    color: #7854cc;
     display: block;
     font-weight: bold;
     text-transform: uppercase;
@@ -201,7 +201,7 @@
 
 .example::before {
     content: "Example:";
-    color: #381885;
+    color: #7b56d2;
     display: block;
     font-weight: bold;
     text-transform: uppercase;
@@ -221,7 +221,7 @@
 // Though won't be rendered as a codeblock itself, would be used for Specific 1 line examples
 .code::before {
     content: attr(title);
-    color: #381885;
+    color: #7b56d2;
     display: block;
     font-weight: bold;
     text-transform: uppercase;
