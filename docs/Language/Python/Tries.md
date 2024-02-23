@@ -18,7 +18,7 @@ Tries excel at handling keys with common prefixes. This makes them particularly 
 
 Tries tend to have a high space complexity, especially for large datasets with many keys sharing common prefixes. However, various optimizations, such as compressing branches with a single child, can reduce space requirements.
 
------------------------------------------------------------------------
+<br>
 
 ## Implementation Considerations
 
@@ -53,9 +53,9 @@ def PrintTree(rootNode):
             stack.append(currentNode.children[key])
 ```
 
-Credit: UKL
+Credit: [UKL](https://github.com/U-K-L)
 
------------------------------------------------------------------------
+<br>
 
 ## Use Cases
 
@@ -69,15 +69,12 @@ Credit: UKL
 
 5. Distributed Databases: Tries can be employed in distributed databases for efficiently storing and querying key-value pairs.
 
------------------------------------------------------------------------
+<br>
 
-## Sources
-
-https://www.geeksforgeeks.org/pattern-searching-using-trie-suffixes/
-
-https://www.geeksforgeeks.org/count-distinct-substrings-string-using-suffix-trie/
-
-https://www.hackerearth.com/practice/notes/trie-suffix-tree-suffix-array/
+{: .further-reading}
+[Pattern Searching using a Trie of all Suffixes](https://www.geeksforgeeks.org/pattern-searching-using-trie-suffixes/) <br>
+[Count of distinct substrings of a string using Suffix Trie](https://www.geeksforgeeks.org/count-distinct-substrings-string-using-suffix-trie/)<br>
+[Trie, Suffix Tree, Suffix Array](https://www.hackerearth.com/practice/notes/trie-suffix-tree-suffix-array/)
 
 ---
 
