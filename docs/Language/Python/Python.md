@@ -49,54 +49,62 @@ There are two major versions of Python currently in use:
 
 There are several steps you can take to begin learning and using the language. Here's a step-by-step guide:
 
-1. ### Download Python
+<br>
 
-Visit the [Official Python Website](https://www.python.org/downloads/) and download the latest version of Python.
+1. **Download Python**
+    
+    Visit the [Official Python Website](https://www.python.org/downloads/) and download the latest version of Python.
 
-2. ### Installation
+2. **Installation**
+    
+    Follow the installation instructions for your operating system. Make sure to check the box that says `"Add Python to PATH"` during installation for easier command-line access.
 
-Follow the installation instructions for your operating system. Make sure to check the box that says `"Add Python to PATH"` during installation for easier command-line access.
+3. **Choose an Integrated Development Environment (IDE)**
+    
+    You'll then need to select an IDE or a text editor to write your Python code. 
 
-3. ### Choose an Integrated Development Environment (IDE)
+    Some popular options include:
+    - Visual Studio Code: A lightweight and extensible code editor with Python support.
+    - Sublime Text:
+    - Atom:
+    - PyCharm: A more feature rich IDE specifically for Python.
 
-You'll then need to select an IDE or a text editor to write your Python code. Some popular options include:
+4. **Write Python Code**
+    
+    Simply create a new Python source file (typically with a `.py ` extension) using your chosen IDE or text editor, and write your C++ code using the C++ syntax and features!
 
-- Visual Studio Code: A lightweight and extensible code editor with Python support.
-- Sublime Text:
-- Atom:
-- PyCharm: A more feature rich IDE specifically for Python.
+    Here's a simple "Hello, World!" program:
 
-3. ### Write Python Code
+    ```python
+    print("Hello, World!")
+    ```
 
-Simply create a new Python source file (typically with a .py extension) using your chosen IDE or text editor, and write your C++ code using the C++ syntax and features!
+    Yeah... it's that easy!
 
-Here's a simple "Hello, World!" program:
+5. **Save**
+    
+    Save your Python code with a meaningful filename and the `.py `   extension.
 
-```python
-print("Hello, World!")
-```
+6. **Run the Code**
+    
+    Use the command-line interface or the terminal to run your python code. Run the program by navigating to the folder with your file and typing:
 
-Yeah... it's that easy!
+    ```bash
+    python hello_world.py
+    ```
 
-4. ### Save
+    OR (on some systems)
 
-Save your Python code with a meaningful filename and the .py extension.
+    ```bash
+    python3 hello_world.py 
+    ```
 
-5. ### Run the Code
+<br>
 
-Use the command-line interface or the terminal to run your python code. Run the program by navigating to the folder with your file and typing:
+{: .note title="Notice"}
+That there is no requirement to compile it like for other languages (such as `C++`). Because `Python`'s code is executed directly by an interpreter without the need for a separate compilation step.
 
-```bash
-python hello_world.py
-```
-
-OR (on some systems)
-
-```bash
-python3 hello_world.py 
-```
-
-Notice how you do not need to compile it like in some other languages (such as C++). This is because Python code is executed directly by an interpreter without the need for a separate compilation step.
+<br>
 
 ---
 
