@@ -89,64 +89,64 @@ It's important to note that C# releases are closely tied to the .NET ecosystem, 
 
 Using C++ involves several steps, from setting up your development environment to writing, compiling, and running your code. Here's a step-by-step guide to get you started:
 
-1. ### Install an Integrated Development Environment (IDE)
+1. **Install an Integrated Development Environment (IDE)**
 
-You'll need an IDE to write C# code. I'd recommend the following:
+    You'll need an IDE to write C# code. I'd recommend the following:
 
-- Visual Studio: Download and install Visual Studio from the official Microsoft website: [Visual Studio](https://visualstudio.microsoft.com/)
+    - Visual Studio: Download and install Visual Studio from the official Microsoft website: [Visual Studio](https://visualstudio.microsoft.com/)
 
-- Visual Studio Code: Alternatively, you can use Visual Studio Code, a lightweight and free code editor. Download and install it from the official website: [Visual Studio Code](https://code.visualstudio.com/).
+    - Visual Studio Code: Alternatively, you can use Visual Studio Code, a lightweight and free code editor. Download and install it from the official website: [Visual Studio Code](https://code.visualstudio.com/).
 
-2. ### Open the IDE + Create New Project 
+2. **Open the IDE + Create New Project**
 
-- Visual Studio: Open Visual Studio and create a new project by selecting "File" -> "New" -> "Project...". Choose a C# project template, such as a Console App.
+    - Visual Studio: Open Visual Studio and create a new project by selecting "File" -> "New" -> "Project...". Choose a C# project template, such as a Console App.
 
-- Visual Studio Code: Open Visual Studio Code and install the "C# for Visual Studio Code" extension. Create a new C# file (with a .cs extension) for your program.
+    - Visual Studio Code: Open Visual Studio Code and install the "C# for Visual Studio Code" extension. Create a new C# file (with a .cs extension) for your program.
 
-3. ### Write C# Code
+3. **Write C# Code**
 
-In your C# file, write the following code:
+    In your C# file, write the following code:
 
-```cs
-using System;
+    ```cs
+    using System;
 
-class Program
-{
-    static void Main()
+    class Program
     {
-        Console.WriteLine("Hello, World!");
+        static void Main()
+        {
+            Console.WriteLine("Hello, World!");
+        }
     }
-}
-```
+    ```
 
-This code uses the System namespace and contains a simple Main method that prints `"Hello, World!"` to the console using the `Console.WriteLine()` method.
+    This code uses the System namespace and contains a simple Main method that prints `"Hello, World!"` to the console using the `Console.WriteLine()` method.
 
-4. ### Save
+4. **Save**
 
-Save your C# file with a .cs extension, such as HelloWorld.cs.
+    Save your C# file with a .cs extension, such as HelloWorld.cs.
 
-5. ### Compile
+5. **Compile**
 
-- Visual Studio: Click the "Start" button (green arrow) or press F5 to build and run your program.
+    - Visual Studio: Click the "Start" button (green arrow) or press F5 to build and run your program.
 
-- Visual Studio Code: Open the integrated terminal, navigate to the directory where your C# file is located, and run the following commands:
+    - Visual Studio Code: Open the integrated terminal, navigate to the directory where your C# file is located, and run the following commands:
 
-```bash
-dotnet build
-dotnet run
-```
+    ```bash
+    dotnet build
+    dotnet run
+    ```
 
-6. ### Run The Program:
+6. **Run The Program:**
 
-You should see the output `"Hello, World!"` in the console window. This basic example should provide a foundation for exploring more advanced C# concepts and building more complex applications.
+    You should see the output `"Hello, World!"` in the console window. This basic example should provide a foundation for exploring more advanced C# concepts and building more complex applications.
 
-7. ### Debugging
+7. **Debugging**
 
-Use the debugging features provided by your IDE or compiler to identify and fix errors in your code. Common debugging techniques include setting breakpoints, inspecting variables, and stepping through code.
+    Use the debugging features provided by your IDE or compiler to identify and fix errors in your code. Common debugging techniques include setting breakpoints, inspecting variables, and stepping through code.
 
-8. ### Learn and Experiment:
+8. **Learn and Experiment:**
 
-Keep up to date with .NET framework updates, as this will often pave the direction of C# and introduce new features to work with. The language is constantly evolving, and still in rapid development.
+    Keep up to date with .NET framework updates, as this will often pave the direction of C# and introduce new features to work with. The language is constantly evolving, and still in rapid development.
 
 ---
 
