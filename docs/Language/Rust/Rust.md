@@ -13,27 +13,30 @@ has_children: false
 
 Rust is a systems programming language that focuses on speed, memory safety, and parallelism. It is developed by Mozilla and is used to build fast, reliable, and secure software. Rust is an object-oriented, class-based, garbage-collected language with C-style syntax. It supports interfaces, mixins, abstract classes, generics, and optional typing.
 
-### 1) Object-Oriented
+---
 
-- Rust is an object-oriented language, which means that everything in Rust is an object.
-- Objects are instances of classes, which are blueprints for creating objects.
+1. **Object-Oriented**
 
-### 2) Trait-Based
+    - Rust is an object-oriented language, which means that everything in Rust is an object.
+    - Objects are instances of classes, which are blueprints for creating objects.
 
-- Rust is a trait-based language, which means that all objects are created from traits.
-- Traits are used to define the structure and behavior of objects.
+2. **Trait-Based**
 
-### 3) Garbage-Collected
+    - Rust is a trait-based language, which means that all objects are created from traits.
+    - Traits are used to define the structure and behavior of objects.
 
-- Rust is a garbage-collected language, which means that the Rust VM automatically reclaims memory occupied by objects that are no longer in use.
-- This allows developers to focus on writing code instead of worrying about memory management, although we now worry about 'borrowing', which is a new concept.
+3. **Garbage-Collected**
+
+    - Rust is a garbage-collected language, which means that the Rust VM automatically reclaims memory occupied by objects that are no longer in use.
+    - This allows developers to focus on writing code instead of worrying about memory management, although we now worry about 'borrowing', which is a new concept.
 
 ---
 
 ## Examples
 
-Here are some simple example problems that explore making a coffee. Here is some example rust code:
+Here are some simple example problems that explore making a coffee.
 
+{: .code title="Example"}
 ```rust
 struct CoffeeMaker;
 

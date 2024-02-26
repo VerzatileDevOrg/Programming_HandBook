@@ -14,27 +14,30 @@ has_children: false
 You get a widget, you get a widget, everyone gets a widget!
 Flutter is an open-source UI software development kit created by Google. It allows developers to build natively compiled applications for mobile, web, and desktop from a single codebase. Flutter uses the Dart programming language and provides its own widgets, which makes it highly customizable and efficient.
 
-### 1) Widget-Based Architecture
+---
 
-- In Flutter, everything is a widget. This is a core principle of the framework that allows for highly customizable and reusable UI components.
-- Widgets are used to define the structure and appearance of the UI, and Flutter provides a rich set of pre-built widgets that can be used to compose the UI.
+1. **Widget-Based Architecture**
 
-### 2) State Management
+    - In Flutter, everything is a widget. This is a core principle of the framework that allows for highly customizable and reusable UI components.
+    - Widgets are used to define the structure and appearance of the UI, and Flutter provides a rich set of pre-built widgets that can be used to compose the UI.
 
-- This is a crucial aspect of any Flutter application. There are various strategies for managing state in Flutter, such as Provider, Riverpod, Bloc, etc.
-- State management is a complex topic, and there is no one-size-fits-all solution. The best approach depends on the size and complexity of the application.
+2. **State Management**
 
-### 3) Hot Reload & Hot Restart
+    - This is a crucial aspect of any Flutter application. There are various strategies for managing state in Flutter, such as Provider, Riverpod, Bloc, etc.
+    - State management is a complex topic, and there is no one-size-fits-all solution. The best approach depends on the size and complexity of the application.
 
-- Flutter's hot reload feature allows developers to quickly and easily experiment, build UIs, add features, and fix bugs.
-- Hot reload injects updated source code files into a running Dart Virtual Machine (VM). This allows you to quickly view the effects of your changes without restarting the app.
+3. **Hot Reload & Hot Restart**
+
+    - Flutter's hot reload feature allows developers to quickly and easily experiment, build UIs, add features, and fix bugs.
+    - Hot reload injects updated source code files into a running Dart Virtual Machine (VM). This allows you to quickly view the effects of your changes without restarting the app.
 
 ---
 
 ## Examples
 
-Here are some simple example problems that explore making a coffee. Here is some example dart code:
+Here are some simple example problems that explore making a coffee.
 
+{: .code title="Example"}
 ```dart
 class CoffeeMaker {
   void makeCoffee() {
@@ -68,6 +71,7 @@ class CoffeeMaker {
 
 In this example, we have two widgets: `MyApp` and `MyHomePage`. `MyApp` is the root widget of the application and `MyHomePage` is a child widget. Each widget has a build method that describes the part of the user interface the widget represents. Widgets are composed together to build the complete UI. For example, `MyHomePage` uses `Scaffold`, `AppBar`, `Center`, `Column`, `Text`, and `FloatingActionButton` widgets to define its UI. This is a fundamental aspect of Flutter's widget-based architecture: complex UIs are built by composing a number of simpler widgets.
 
+{: .code title="Example"}
 ```dart
 import 'package:flutter/material.dart';
 
@@ -129,6 +133,7 @@ class MyHomePage extends StatelessWidget {
 
 In this example, we use the `Provider` package for state management with a `Counter` class that notifies listeners of changes. The `ChangeNotifierProvider` makes an instance of `Counter` available to the widget tree, allowing any widget to listen for changes. The `Consumer` widget then rebuilds the UI whenever the `Counter` changes, demonstrating how Flutter allows widgets to react and rebuild when the state changes.
 
+{: .code title="Example"}
 ```dart
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';

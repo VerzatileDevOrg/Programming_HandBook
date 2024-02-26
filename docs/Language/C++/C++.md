@@ -70,74 +70,74 @@ Each release has aimed to enhance the language's expressiveness, safety, and per
 
 Using C++ involves several steps, from setting up your development environment to writing, compiling, and running your code. Here's a step-by-step guide to get you started:
 
-1. ### Install a C++ Compiler
+1. **Install a C++ Compiler**
 
-You'll need a C++ compiler to translate your source code into machine code. Popular compilers include:
+    You'll need a C++ compiler to translate your source code into machine code. Popular compilers include:
 
-- GCC (GNU Compiler Collection): Common on Unix-like systems.
-- Visual C++ Compiler: Included with Visual Studio on Windows.
-- Clang: Another open-source compiler available on multiple platforms.
- 
-The compiler you choose will need to be based on your operating system and preferences.
+    - GCC (GNU Compiler Collection): Common on Unix-like systems.
+    - Visual C++ Compiler: Included with Visual Studio on Windows.
+    - Clang: Another open-source compiler available on multiple platforms.
+  
+    The compiler you choose will need to be based on your operating system and preferences.
 
-2. ### Choose an Integrated Development Environment (IDE)
+2. **Choose an Integrated Development Environment (IDE)**
 
-You'll then need to select an IDE or a text editor to write your C++ code. Some popular options include:
+    You'll then need to select an IDE or a text editor to write your C++ code. Some popular options include:
 
-- Visual Studio: A powerful IDE available on Windows with excellent C++ support.
-- Code::Blocks: An open-source, cross-platform IDE.
-- Eclipse: A versatile IDE that supports C++ development.
-- Visual Studio Code: A lightweight and extensible code editor with C++ support.
+    - Visual Studio: A powerful IDE available on Windows with excellent C++ support.
+    - Code::Blocks: An open-source, cross-platform IDE.
+    - Eclipse: A versatile IDE that supports C++ development.
+    - Visual Studio Code: A lightweight and extensible code editor with C++ support.
 
-3. ### Write C++ Code
+3. **Write C++ Code**
 
-Simply create a new C++ source file (typically with a .cpp extension) using your chosen IDE or text editor, and write your C++ code using the C++ syntax and features!
+    Simply create a new C++ source file (typically with a .cpp extension) using your chosen IDE or text editor, and write your C++ code using the C++ syntax and features!
 
-Here's a simple "Hello, World!" program:
+    Here's a simple "Hello, World!" program:
 
-{: .code }
-```cpp
-#include <iostream>
+    {: .code }
+    ```cpp
+    #include <iostream>
 
-int main() 
-{
-    std::cout << "Hello, World!" << std::endl;
-    return 42069;
-}
-```
+    int main() 
+    {
+        std::cout << "Hello, World!" << std::endl;
+        return 42069;
+    }
+    ```
 
-4. ### Save
+4. **Save**
 
-Save your C++ code with a meaningful filename and the .cpp extension.
+    Save your C++ code with a meaningful filename and the .cpp extension.
 
-5. ### Compile
+5. **Compile**
 
-Use the command-line interface or the IDE to compile your C++ code, using GCC:
+    Use the command-line interface or the IDE to compile your C++ code, using GCC:
 
-{: .code }
-```bash
-g++ your_program.cpp -o your_program
-```
+    {: .code }
+    ```bash
+    g++ your_program.cpp -o your_program
+    ```
 
-This command will compile your code (your_program.cpp) and generate an executable named `your_program`.
+    This command will compile your code (your_program.cpp) and generate an executable named `your_program`.
 
-6. ### Run The Program:
+6. **Run The Program:**
 
-Execute the compiled program!
+    Execute the compiled program!
 
-- On the command line:
-  - `./your_program` (Unix-like systems)
-  - `your_program.exe` (Windows)
+    - On the command line:
+      - `./your_program` (Unix-like systems)
+      - `your_program.exe` (Windows)
 
-In the IDE, there's also usually a "Run" or "Debug" button. In Visual Studio, you can press `F5` to build.
+    In the IDE, there's also usually a "Run" or "Debug" button. In Visual Studio, you can press `F5` to build.
 
-7. ### Debugging
+7. **Debugging**
 
-Use the debugging features provided by your IDE or compiler to identify and fix errors in your code. Common debugging techniques include setting breakpoints, inspecting variables, and stepping through code. The methods in which you do this will vary between tools.
+    Use the debugging features provided by your IDE or compiler to identify and fix errors in your code. Common debugging techniques include setting breakpoints, inspecting variables, and stepping through code. The methods in which you do this will vary between tools.
 
-8. ### Learn and Experiment:
+8. **Learn and Experiment:**
 
-Explore C++ features, syntax, and libraries. Experiment with different code examples and gradually tackle more complex projects. Online resources, tutorials, and C++ documentation can be valuable references.
+    Explore C++ features, syntax, and libraries. Experiment with different code examples and gradually tackle more complex projects. Online resources, tutorials, and C++ documentation can be valuable references.
 
 ---
 

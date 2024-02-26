@@ -15,13 +15,19 @@ This guide demonstrates how to include DLL files in a folder and seamlessly inte
 
 The following is based on an (IDE) [Visual Studio 2022](https://visualstudio.microsoft.com/vs/)
 
+<br>
 
 ### List of options:
 
+   - [Root Directory Linking](#root-directory-linking-(default))
+   - [Working Directory Linking:](#2-working-directory-linking)
+   - [Defined Locations Path](#3-defined-locations-path)
+
 <br>
 
-1. ### **Root Directory Linking (Default):**
+### 1. **Root Directory Linking (Default):**
 
+<br>
 
 Located in the same directory as `.vcxproj` known as `Root directory`.
 
@@ -50,7 +56,9 @@ Simply add the DLL into your project:
 
 <br>
 
-2. ### **Working Directory Linking:**
+### 2. **Working Directory Linking:**
+
+<br>
 
 Changing the working directory (Location of where the application starts the process of the build and runtime).
 
@@ -83,7 +91,9 @@ See the bottom of the page to setup `Pre-linking Events`.
 
 <br>
 
-3. #### **Defined locations (PATH):**
+### 3. **Defined locations (PATH):**
+
+<br>
 
 Giving the (IDE) or application a pre-defined location to look for dlls.
 
@@ -117,7 +127,9 @@ See the bottom of the page to setup Pre-linking Events.
 
 <br>
 
-4. #### System directory linking:
+### 4. System directory linking:
+
+<br>
 
 {: .important}
 The following is specific to the users machine, which may affect the project for collaboration and future development if the `dlls` are not made accessible in the system globally or not installed. <br><br>
@@ -166,6 +178,8 @@ Please see on further reading at the bottom of the page
 <br>
 
 ### **Pre-Linking Events**
+
+<br>
 
 1. **Building DLLs into output Directory:**
    - Navigate to Configuration Properties -> Build Events -> Pre-link Events.
