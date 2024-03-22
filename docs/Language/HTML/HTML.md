@@ -68,7 +68,7 @@ Here's an example of HTML code that creates a simple webpage with a heading, par
 
 ## Conclusion
 
-HTML is essential for creating the structure and content of web pages and web applications
+HTML is essential for creating the structure and content of web pages and web applications.
 
 ---
 
