@@ -27,7 +27,13 @@ HTML, or Hypertext Markup Language, is the standard markup language for creating
 3. **Content**
 
    - HTML supports various types of content, including text, images, videos, links, forms, and more.
-   - Content is placed within the appropriate HTML elements using tags, such as <p> for paragraphs, <img> for images, <video> for videos, <a> for links, <form> for forms, etc.
+   - Content is placed within the appropriate HTML elements using tags, such as;
+     -    ```<p>``` for paragraphs, 
+     -  ```<img>``` for images, 
+     -  ```<video>``` for videos, 
+     -  ```<a>``` for links, 
+     -  ```<form>``` for forms.
+  
 
 4. **Attributes**
 
