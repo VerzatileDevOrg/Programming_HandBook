@@ -20,7 +20,21 @@
 
 The Programmer's Handbook is an open source initiative to collect, archive, and localize all programming knowledge in one collective space.
 
-If you'd like to contribute to the project, please fork it, add your article, and submit a PR for review!
+<br>
+
+Contribution Guidelines:
+
+   * If you'd like to contribute to the project, please refer to our [Wiki](https://github.com/VerzatileDevOrg/Programming_HandBook/wiki) for detailed steps.
+   * Start by forking the repository
+   * Download the forked repository locally
+   * Open the project
+   * Add an article or modify it
+   * Commit changes
+   * Submit a pull request (PR) for review.
+
+Additionally see [Issues](https://github.com/VerzatileDevOrg/Programming_HandBook/issues) to address current unresolved areas within the project.
+
+<br>
 
 ---
 
