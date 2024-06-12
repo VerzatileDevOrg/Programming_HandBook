@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Addresses
+description: An article dicussing about c++ memory addresses.
 nav_order: 1
 parent: C++
 grand_parent: Language

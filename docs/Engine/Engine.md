@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Engine
+description: An article discussing about the use cases of video game engines, history and definition.
 nav_order: 4
 has_children: true
 ---

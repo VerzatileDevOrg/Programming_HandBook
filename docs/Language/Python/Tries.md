@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Tries
+description: An article dicussing about python's data structure known as Tries with a description, use cases and considerations.
 nav_order: 1
 parent: Python
 grand_parent: Language

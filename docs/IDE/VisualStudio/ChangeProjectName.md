@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Change Project Name
+description: An article discussing methods to transfer github enterprise account repositires into personal github repositires.
 nav_order: 1
 parent: Visual Studio
 grand_parent: IDE

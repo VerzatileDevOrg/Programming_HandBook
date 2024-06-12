@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Algorithms
+description: An Article that explores algorithmic concepts, types, techniques and analysis of time complexity.
 nav_order: 1
 parent: Concepts
 has_children: false

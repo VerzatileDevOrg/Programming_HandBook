@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Flutter
+description: An article showcasing Flutter, a robust development kit framework. In this comprehensive exploration, we delve into its capabilities, features, and practical applications, offering detailed descriptions and illustrative examples.
 nav_order: 1
 parent: Framework
 has_children: false

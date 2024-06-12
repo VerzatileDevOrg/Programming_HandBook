@@ -1,6 +1,7 @@
 ---
 layout: default
 title: HTML
+description: An article dicussing about the markup language HTML with a description and basic exmaples.
 nav_order: 1
 parent: Language
 has_children: false

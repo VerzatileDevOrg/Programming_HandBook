@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Rust
+description: An article dicussing about a programming language known as rust, with definition and basic examples.
 nav_order: 1
 parent: Language
 has_children: false

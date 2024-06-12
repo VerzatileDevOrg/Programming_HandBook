@@ -1,6 +1,7 @@
 ---
 layout: default
 title: DevOps
+description: An article discussing the concept of DevOps and the utilization of platforms and environments in development.
 nav_order: 1
 parent: Concepts
 has_children: false
