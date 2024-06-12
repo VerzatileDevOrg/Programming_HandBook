@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Multilevel Pointers
+description: An article dicussing about c++ Multi-level Pointers, with basic examples.
 nav_order: 1
 parent: C++
 grand_parent: Language

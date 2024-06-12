@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Python
+description: An article dicussing about a programming language known as Python, with features, key releases, getting started and basic examples.
 nav_order: 1
 parent: Language
 has_children: true

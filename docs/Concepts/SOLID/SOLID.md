@@ -1,6 +1,7 @@
 ---
 layout: default
 title: SOLID
+description: An article discussing the concept of SOLID, its principles, types and definitions. Example code provides an overview of the concept by utalizing a coffing making method.
 nav_order: 1
 parent: Concepts
 has_children: false

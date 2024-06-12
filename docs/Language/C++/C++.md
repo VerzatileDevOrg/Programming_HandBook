@@ -1,6 +1,7 @@
 ---
 layout: default
 title: C++
+description: An article dicussing features, key releases and getting started topics about C++ a modern, versatile, object-oriented programming language developed by Microsoft.
 nav_order: 1
 parent: Language
 has_children: true

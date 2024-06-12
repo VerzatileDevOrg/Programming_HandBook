@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Dart
+description: An article dicussing about the programming language dart, with description and basic examples.
 nav_order: 1
 parent: Language
 has_children: false

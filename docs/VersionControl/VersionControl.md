@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Version Control
+description: An article dicussing about version control, with definition, use cases, History.
 nav_order: 6
 has_children: true
 ---

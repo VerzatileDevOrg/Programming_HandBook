@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Concepts
+description: An article dicussing the concept of programming concepts with a definition, use cases and history. Where additional Sub-topics go into the topics of each concept in detail.
 nav_order: 5
 has_children: true
 ---

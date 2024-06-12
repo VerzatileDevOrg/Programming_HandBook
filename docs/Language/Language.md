@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Language
+description: An article dicussing about programming languages with a definition, use cases and History.
 nav_order: 2
 has_children: true
 ---

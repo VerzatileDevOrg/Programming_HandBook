@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Member Pointers
+description: An article dicussing about c++ Member Pointers, with basic examples.
 nav_order: 1
 parent: C++
 grand_parent: Language

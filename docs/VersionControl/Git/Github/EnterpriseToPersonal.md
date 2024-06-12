@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Transfer Enterprise to Personal Github
+description: An article dicussing about the steps to transfer an enterprise account's repositories to personal repositories on github.
 nav_order: 1
 parent: Github
 grand_parent: Version Control

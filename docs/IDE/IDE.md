@@ -1,6 +1,7 @@
 ---
 layout: default
 title: IDE
+description: An article about Integrated development environment (IDE) defining use cases, history and describtion.
 nav_order: 2
 has_children: true
 ---
