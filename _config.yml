@@ -1,6 +1,7 @@
 title: Programming Handbook
 description: An open-source platform for sharing and preserving programming knowledge. Discover code snippets, best practices, and resources, all continuously updated by a thriving community of developers. Join us to collaborate and enhance your coding skills in one comprehensive space.
 theme: just-the-docs
+permalink: pretty
 
 url: https://just-the-docs.github.io
 
