@@ -13,7 +13,7 @@ has_children: false
 
 {: .warning } 
 This article is quite advanced and assumes you have an understanding of Object Oriented Programming.
-If not, please refer to the [C++](/docs/Concepts/OOP/OOP.md) section of this book!
+If not, please refer to the [OOP](/docs/Concepts/OOP/OOP.md) section of this book!
 
 Polymorphism is a fundamental concept in object-oriented programming (OOP) that allows objects of different classes to be treated as objects of a common superclass. It enables a single interface to be used for entities of different types, promoting flexibility, extensibility, and code reuse. Polymorphism can be achieved through two main mechanisms: compile-time (or static) polymorphism and run-time (or dynamic) polymorphism.
 
