@@ -1,6 +1,6 @@
 ---
 layout: default
-title: OOOP
+title: OOP
 description: An article dicussing Object Oriented Programming.
 nav_order: 1
 parent: OOP
