@@ -3,8 +3,7 @@ layout: default
 title: OOP
 description: An article dicussing Object Oriented Programming.
 nav_order: 1
-parent: OOP
-grand_parent: Concepts
+parent: Concepts
 has_children: false
 ---
 
