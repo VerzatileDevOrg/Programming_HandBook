@@ -3,8 +3,7 @@ layout: default
 title: Polymorphism
 description: An article dicussing "Polymorphism", which means "Many Forms".
 nav_order: 1
-parent: Polymorphism
-grand_parent: Concepts
+parent: Concepts
 has_children: false
 ---
 
