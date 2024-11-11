@@ -19,3 +19,6 @@ last-modified-at:
 
 # Color Theme
 color_scheme: light
+
+# Show navigation error report
+nav_error_report: true # default is false/nil.
