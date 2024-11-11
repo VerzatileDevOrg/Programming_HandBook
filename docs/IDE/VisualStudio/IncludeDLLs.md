@@ -4,7 +4,6 @@ title: Include DLLs
 description: An article demonstrating the use cases of DLL linking within visual studio. A practical use when dealing with programming libraries and code organization.
 nav_order: 2
 parent: Visual Studio
-grand_parent: IDE
 has_children: false
 ---
 
