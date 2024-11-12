@@ -34,7 +34,8 @@ back_to_top: true
           {% endif %}
 
           <!-- Include children navigation if page has children and TOC is enabled -->
-          {% if page.has_children == true and page.has_toc != false %}
+          <!-- Changed for Unlimited-Navigation instead -->
+          {% if page.has_toc != false %}
             {% include components/children_nav.html %}
           {% endif %}
         </main>

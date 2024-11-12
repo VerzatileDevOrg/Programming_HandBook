@@ -4,7 +4,6 @@ title: Constant Pointers
 description: An article dicussing about c++ constant pointers, its benefits and basic examples.
 nav_order: 1
 parent: C++
-grand_parent: Language
 has_children: false
 ---
 

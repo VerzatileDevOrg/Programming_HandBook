@@ -4,7 +4,6 @@ title: Dereferencing
 description: An article dicussing about c++ Dereferencing, with basic examples.
 nav_order: 1
 parent: C++
-grand_parent: Language
 has_children: false
 ---
 

@@ -4,7 +4,6 @@ title: Pointers To Constants
 description: An article dicussing about c++ Pointers To Constants, with basic examples.
 nav_order: 1
 parent: C++
-grand_parent: Language
 has_children: false
 ---
 
