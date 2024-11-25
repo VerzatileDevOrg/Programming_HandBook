@@ -15,8 +15,16 @@ Changes to documentation and to this project are documented on this page.
 
 <br>
 
+## Release V.1.0.3 (#118)
+
+Addition of Changelog.md page.
+
+(The following change is made to make it simpler to track changes and change of requirements in case somethign goes wrong or required additional overview from the developers or the person reading it.
+
+<br>
 
 ## Release V.1.0.2 (#117)
+
 Just the docs v0.10.0
 The following updates the core dependancy of Just the docs from v0.8.0
 to v0.10.0.
