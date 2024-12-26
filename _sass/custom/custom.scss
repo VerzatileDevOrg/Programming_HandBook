@@ -15,3 +15,9 @@ h1 {
 h2 {
      padding-bottom: 20px;
 }
+
+// Specific for Changelog.md
+.nav-list-item > a.nav-list-link[href="/docs/changelog/"] {
+     color: #7960df;
+     font-weight: bold;
+}
